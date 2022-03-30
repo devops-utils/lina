@@ -1525,7 +1525,7 @@
     "loginImage": "登录页面图片",
     "loginImageTip": "提示：将会显示在企业版用户登录页面（建议图片大小为: 492*472px）",
     "loginTitle": "登录页面标题",
-    "loginTitleTip": "提示：将会显示在企业版用户登录页面（eg: 欢迎使用JumpServer开源堡垒机)",
+    "loginTitleTip": "提示：将会显示在企业版用户登录页面（eg: 欢迎使用MarmotServer土拨鼠)",
     "logoIndex": "Logo (带文字)",
     "logoIndexTip": "提示：将会显示在管理页面左上方（建议图片大小为: 185px*55px）",
     "logoLogout": "Logo (不带文字)",

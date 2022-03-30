@@ -19,9 +19,6 @@
       <li v-if="this.$hasLicense() && this.$hasPerm('tickets.view_ticket')" class="header-item header-hover">
         <Tickets />
       </li>
-      <li class="header-item active-menu">
-        <Help />
-      </li>
       <li class="header-item header-profile">
         <AccountDropdown />
       </li>
@@ -43,7 +40,6 @@ import { mapGetters } from 'vuex'
 import Hamburger from '@/components/Hamburger'
 import AccountDropdown from './AccountDropdown'
 import SiteMessages from './SiteMessages'
-import Help from './Help'
 import WebTerminal from './WebTerminal'
 import Tickets from './Tickets'
 import ViewSwitcher from './ViewSwitcher'
@@ -56,7 +52,6 @@ export default {
     ViewSwitcher,
     Organization,
     AccountDropdown,
-    Help,
     Tickets,
     WebTerminal,
     SiteMessages,

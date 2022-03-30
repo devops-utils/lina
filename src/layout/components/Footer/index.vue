@@ -1,11 +1,6 @@
 <template>
   <div class="footer" :style="style">
-    <div class="pull-right">
-      Version <strong> dev </strong> <span v-if="!publicSettings.XPACK_LICENSE_IS_VALID"> GPLv2. </span>
-    </div>
-    <div style="padding-left:20px;">
-      {{ publicSettings.XPACK_LICENSE_INFO.corporation }}
-    </div>
+
   </div>
 </template>
 <script>
