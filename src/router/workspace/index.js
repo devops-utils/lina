@@ -77,7 +77,8 @@ export default {
           meta: {
             title: i18n.t('route.KubernetesApp'),
             permissions: []
-          }
+          },
+          hidden: true
         }
       ]
     },
