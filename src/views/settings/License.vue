@@ -136,7 +136,7 @@ export default {
       this.dialogLicenseImport = true
     },
     consultAction: function() {
-      const url = 'http://www.jumpserver.org/support/'
+      const url = 'https://marmot.7otech.com/support/'
       window.open(url, '_blank')
     },
     importLicense() {
